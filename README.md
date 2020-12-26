@@ -1,4 +1,4 @@
-# List of Design Resources I have come across
+# List of Free Design Resources I have come across
 Listed @ my [website](https://siddhart.one)
 ## [Undraw](https://undraw.co)
 Open-source illustrations for any idea you can imagine and create.
