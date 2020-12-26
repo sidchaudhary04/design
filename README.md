@@ -1,5 +1,5 @@
 # List of Free Design Resources I have come across
-Listed @ my [website](https://siddhart.one)
+Listed @ my [website](https://siddharth.one)
 ## [Undraw](https://undraw.co)
 Open-source illustrations for any idea you can imagine and create.
 ## [Heroicons](https://heroicons.com)
