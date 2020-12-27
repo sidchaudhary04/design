@@ -19,9 +19,14 @@
 <title>Siddharth Chaudhary - Design</title>
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+ <script>
     AOS.init();
+     window.onscroll = () => {
+  const nav = document.querySelector('nav');
+  if(this.scrollY <= 10) nav.className = 'w-full top-0 fixed bg-white nav flex flex-wrap items-center justify-between px-4'; else nav.className = 'shadow-xl w-full top-0 fixed bg-white nav flex flex-wrap items-center justify-between px-4 ';
+};
   </script>
+  <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="siddharthone" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 <style>
 :root {
@@ -52,7 +57,7 @@ body{
 padding-top:40px;
 }
 </style>
-<nav class="fixed top-0 w-full bg-white shadow nav flex flex-wrap items-center justify-between px-4">
+<nav class="fixed top-0 w-full bg-white nav flex flex-wrap items-center justify-between px-4">
   <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
     <a href="/#" class="font-semibold text-xl tracking-tight">Design</a>
   </div>
